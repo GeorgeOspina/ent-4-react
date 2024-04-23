@@ -1,0 +1,48 @@
+.form__back {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+.form__back.active {
+    display: flex;
+}
+.form {
+    position: relative;
+    height: 380px;
+    background-color: gray;
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.form__close {
+    color: white;
+    padding: 3px 1px;
+    position: absolute;
+    top: 5%;
+    right: 10%;
+}
+.form__close:hover {
+    color: red;
+}
+.form__title {
+    color: rgb(1, 1, 70);
+}
+.form__item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.form__btn {
+    background-color: rgb(0, 0, 50);
+    color: white;
+}
